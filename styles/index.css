@@ -1,5 +1,8 @@
 * {
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+
 }
 
 .text-primary {
@@ -14,12 +17,15 @@
     font-weight: 700;
     color: white;
     padding: 18px 35px;
+    
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 200px;
+    padding: 5px;
 }
 
 .nav-title {
@@ -43,3 +49,29 @@ nav a {
     text-decoration: none;
     color: #181818;
 }
+
+.head {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+   
+    
+
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 180px;
+    
+    
+}
+.banner-container .dev-img {
+    width: 520px;
+    height: 600px;
+    
+    
+    
+}
+
